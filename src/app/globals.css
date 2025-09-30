@@ -24,3 +24,65 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+/* Estilos globales para TarjetaGlobal */
+.tarjeta-global {
+  background: white;
+  border-radius: 12px;
+  padding: 1.5rem;
+  margin: 1rem 0;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+  border: 2px solid transparent;
+}
+
+.tarjeta-global:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.15);
+}
+
+.titulo-global {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 0.75rem;
+  color: #374151;
+}
+
+.contenido-global {
+  color: #6b7280;
+  line-height: 1.6;
+  margin: 0;
+}
+
+/* Variantes de color para tarjetas globales */
+.tarjeta-global.border-blue-500 {
+  border-color: #3b82f6;
+}
+
+.tarjeta-global.bg-blue-50 {
+  background-color: #eff6ff;
+}
+
+.tarjeta-global.border-green-500 {
+  border-color: #10b981;
+}
+
+.tarjeta-global.bg-green-50 {
+  background-color: #ecfdf5;
+}
+
+.tarjeta-global.border-red-500 {
+  border-color: #ef4444;
+}
+
+.tarjeta-global.bg-red-50 {
+  background-color: #fef2f2;
+}
+
+.tarjeta-global.border-yellow-500 {
+  border-color: #f59e0b;
+}
+
+.tarjeta-global.bg-yellow-50 {
+  background-color: #fffbeb;
+}
